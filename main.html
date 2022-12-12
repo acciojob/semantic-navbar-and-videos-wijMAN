@@ -3,40 +3,45 @@
 <html>
   <head>
     <link rel="stylesheet" href="styles.css" />
-    <!-- <title>VIDEOS</title> -->
-    <!-- <meta name="description" content="3 random videos" /> -->
+    <title>VIDEOS</title>
+    <meta name="description" content="3 random videos" />
     <meta name="author" content="Wijdan" />
-    <!-- <link
+    <link
       rel="shortcut icon"
       href="https://cdn-icons-png.flaticon.com/512/5930/5930256.png"
       type="image/x-icon"
-    /> -->
+    />
   </head>
   <body>
     <!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js"></script>
     <nav>
-      <a href="http://google.com">Home</a>
-      <a href="http://google.com">About us</a>
-      <a href="http://google.com">Contact us</a>
+      <ul>
+        <li><a href="http://google.com">Home</a></li>
+        <li><a href="http://youtube.com">About us</a></li>
+        <li><a href="http://wikipedia.com">Contact us</a></li>
+      </ul>
     </nav>
-    <!-- <div> -->
+    <div>
       <h1>3 random videos</h1>
-      <video
-        src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-        controls
-        type="video/mp4"
-      ></video>
-      <video
-        src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
-        controls
-        type="video/mp4"
-      ></video>
-      <video
-        src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4"
-        controls
-        type="video/mp4"
-      ></video>
-    <!-- </div> -->
+      <video controls>
+        <source
+          src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <video controls>
+        <source
+          src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <video controls>
+        <source
+          src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4"
+          type="video/mp4"
+        />
+      </video>
+    </div>
   </body>
 </html>
