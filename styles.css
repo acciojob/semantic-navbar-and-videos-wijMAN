@@ -1,2 +1,28 @@
-
 /* Your CSS Code here. */
+nav {
+  border: 3px dashed #0d7dbe;
+  padding-left: 25%;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+a {
+  margin-right: 25%;
+  /* border: 5px solid rgb(69, 23, 143); */
+  /* outline: 10px solid green; */
+}
+
+h1 {
+  color: #0d7dbe;
+}
+
+video {
+  height: 245px;
+  border: 3px double #0d7dbe;
+  padding: 2px;
+  border-radius: 7px;
+}
+
+video:hover {
+  cursor: pointer;
+}
